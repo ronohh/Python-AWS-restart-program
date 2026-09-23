@@ -10,3 +10,9 @@ myString = "This is a string."
 print(myString)
 print(type(myString))
 print(str(myString) + " is of the data type " + str(type(myString)))
+
+# Working with string concatenation
+firstName = "alele"
+lastName = "mtoto"
+fullName = firstName + " " + lastName
+print(fullName)
