@@ -16,3 +16,7 @@ firstName = "alele"
 lastName = "mtoto"
 fullName = firstName + " " + lastName
 print(fullName)
+
+# Working with input strings
+name = input("what is your name")
+print("hello " + name)
