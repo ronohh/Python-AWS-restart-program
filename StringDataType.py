@@ -18,5 +18,10 @@ fullName = firstName + " " + lastName
 print(fullName)
 
 # Working with input strings
-name = input("what is your name")
+name = input("what is your name: ")
 print("hello " + name)
+
+# Formatting output strings
+color = input("What is your favorite color?  ")
+animal = input("What is your favorite animal?  ")
+print("Your favorite color is {} and your favorite animal is {}.".format(color, animal))
