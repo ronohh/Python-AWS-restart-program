@@ -26,3 +26,7 @@ print(type(myValue))
 print(str(myValue) + " is of the data type " + str(type(myValue)))
 
 # Introducing the complex data type
+myValue=5j
+print(myValue)
+print(type(myValue))
+print(str(myValue) + " is of the data type " + str(type(myValue)))
