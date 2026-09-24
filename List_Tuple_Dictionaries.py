@@ -24,3 +24,12 @@ print(type(myFinalAnswerTuple))
 print(myFinalAnswerTuple[0])
 print(myFinalAnswerTuple[1])
 print(myFinalAnswerTuple[2])
+
+# Introducing the dictionary data type
+myFavoriteFruitDictionary = {
+  "Akua" : "apple",
+  "Saanvi" : "banana",
+  "Paulo" : "pineapple"
+}
+print(myFavoriteFruitDictionary)
+print(type(myFavoriteFruitDictionary))
