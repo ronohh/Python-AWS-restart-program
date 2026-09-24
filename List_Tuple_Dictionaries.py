@@ -14,3 +14,8 @@ myFruitList[1] = "orange"
 print(myFruitList)
 myFruitList[2] = "watermelon"
 print(myFruitList)
+
+# Introducing the tuple data type
+myFinalAnswerTuple = ("apple", "banana", "pineapple")
+print(myFinalAnswerTuple)
+print(type(myFinalAnswerTuple))
