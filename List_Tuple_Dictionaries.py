@@ -27,9 +27,13 @@ print(myFinalAnswerTuple[2])
 
 # Introducing the dictionary data type
 myFavoriteFruitDictionary = {
-  "Akua" : "apple",
-  "Saanvi" : "banana",
-  "Paulo" : "pineapple"
+  "geofrey" : "apple",
+  "Salim" : "banana",
+  "lagat" : "pineapple"
 }
 print(myFavoriteFruitDictionary)
 print(type(myFavoriteFruitDictionary))
+
+print(myFavoriteFruitDictionary["geofrey"])
+print(myFavoriteFruitDictionary["Salim"])
+print(myFavoriteFruitDictionary["lagat"])
