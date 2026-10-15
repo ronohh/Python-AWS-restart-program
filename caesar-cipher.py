@@ -23,3 +23,7 @@ def encryptMessage(message, cipherKey, alphabet):
         else:
             encryptedMessage = encryptedMessage + currentCharacter
     return encryptedMessage
+
+def decryptMessage(message, cipherKey, alphabet):
+    decryptKey = -1 * int(cipherKey)
+    return encryptMessage(message, decryptKey, alphabet)
