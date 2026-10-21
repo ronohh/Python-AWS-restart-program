@@ -7,4 +7,4 @@ import os
 
 import subprocess
 
-subprocess.run(["ls"])  
+subprocess.run(["ls","-l"])
