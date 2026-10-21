@@ -7,4 +7,4 @@ import os
 
 import subprocess
 
-subprocess.run(["ls","-l"])
+subprocess.run(["ls","-l","README.md"])
