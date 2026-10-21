@@ -3,4 +3,8 @@
 # Use subprocess.run() to run Bash commands
 import os
 
-os.system("ls")
+
+
+import subprocess
+
+subprocess.run(["ls"])  
